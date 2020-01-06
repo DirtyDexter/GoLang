@@ -12,7 +12,7 @@ func main() {
 	fmt.Printf("%T\n", a)
 	fmt.Printf("%T\n", b)
 	foo()
-	b = hotdog(a) // conversion, not cating
+	b = hotdog(a) // conversion, not casting
 	fmt.Printf("%T\n", b)
 	fmt.Println(b)
 	fmt.Printf("%T\n", a)
